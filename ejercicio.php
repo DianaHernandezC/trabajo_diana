@@ -30,21 +30,23 @@
 <form>
 
 </br>
+<div id="resultado" ></div>
+
 
 <br>
 
 <form action="#2">
 	<strong>Segundo; </strong>
-	<select id="select2" name="select">
+	<select id="grado" name="select">
 		<option value="">Seleccione</option>
-		<option value="Segundo A">Segundo A</option>
-		<option value="Segundo C">Segundo B</option>
+		<option value="SegundoA">Segundo A</option>
+		<option value="SegundoC">Segundo C</option>
 
 	</select>
 
 </br>
 
-<div id="resultado" ></div>
+
 
 
 <script>

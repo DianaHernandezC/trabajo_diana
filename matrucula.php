@@ -17,15 +17,23 @@
 
 	if($miGrado == 'PrimeroA'){
 		$arrRecorrer = $arrayprimeroA;
+
+	}else if($miGrado == 'PrimeroB'){ 
 		$arrRecorrer = $arrayprimeroB;
+ 
+	}else if($miGrado == 'PrimeroC'){
+
+
 		$arrRecorrer = $arrayprimeroC;
 
-
-		
 	}else if ($miGrado == 'SegundoA'){
 		$arrRecorrer = $arraysegundoA;
+		 	
+	}else if ($miGrado == 'Segundoc'){
+		 
 		$arrRecorrer = $arraysegundoC;	
 	}
+
 
 	$resultado = "<select id='materia' name='materia' >";
 
